@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RadPad</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Main Activity-->
+    <string name="empty_place">No any places to rent</string>
+
+    <string name="invalid_street_address">invalid street address</string>
+    <string name="err_msg_street">No any street is enter</string>
+
+    <string name="invalid_city">invalid city</string>
+    <string name="err_msg_city">No any city is enter</string>
+
+    <string name="no_move_out_in_a_past_day">you cant move out, in a past day</string>
+    <string name="no_move_in_in_a_past_day">you cant move in, in a past day</string>
+    <string name="day_in_after_day_out">Day in cant be after day out</string>
+    <string name="please_select_day_out">please select day out</string>
+    <string name="please_select_day_in">please select day in</string>
+    <string name="please_select_dates">please select dates</string>
+    <string name="No_internet_connection_found">No internet connection found</string>
+    <!--End Main Activity-->
+
+
+    <!--Dialog  Box String-->
+
+    <string name="add_address">ADD ADDRESS</string>
+    <string name="enter_street">Enter Street</string>
+    <string name="enter_city">Enter City</string>
+    <string name="move_in">Move In</string>
+    <string name="to">To</string>
+    <string name="move_out">Move Out</string>
+    <string name="cancel">Cancel</string>
+    <string name="Save">Save</string>
+
+    <!--End Dialog  Box String-->
+
+</resources>

@@ -1,0 +1,209 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--activity main-->
+
+    <style name="MainActivityLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:src">@android:drawable/ic_dialog_email</item>
+    </style>
+
+    <!--end activity main-->
+
+    <!--main home-->
+
+    <style name="MainLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TextViewEmpty">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/empty_place</item>
+    </style>
+
+    <!--end main home-->
+
+
+    <!--adapter rent card-->
+
+    <style name="MainLinearLayout_rent_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/margin_mid</item>
+    </style>
+
+    <style name="Main_Layout_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Main_LinearLayout_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/very_light_gray</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextView_city">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/med_dp</item>
+        <item name="android:textSize">@dimen/text_mid</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView_street">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/min_dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView_dates">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/min_dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--end adapter rent card-->
+
+
+    <!--Dialog Box style-->
+
+    <style name="Main_Dialog_Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextView_add_address">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/add_address</item>
+        <item name="android:padding">@dimen/margin_mid</item>
+        <item name="android:background">@color/very_light_gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="EditText_street">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/margin_mid</item>
+        <item name="android:hint">@string/enter_street</item>
+    </style>
+
+    <style name="EditText_city">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/margin_mid</item>
+        <item name="android:hint">@string/enter_city</item>
+    </style>
+
+    <style name="Horizontal_button_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Button_move_in">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/margin_mid</item>
+        <item name="android:text">@string/move_in</item>
+    </style>
+
+    <style name="TextView_to">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/to</item>
+    </style>
+
+    <style name="Button_move_out">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_mid</item>
+        <item name="android:text">@string/move_out</item>
+    </style>
+
+    <style name="Horizontal_text_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">100</item>
+    </style>
+
+    <style name="TextView_cancel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cancel</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:background">@drawable/diaolg_click</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/max_dp</item>
+    </style>
+
+    <style name="view_sep">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <style name="TextView_save">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/Save</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:background">@drawable/diaolg_click</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/max_dp</item>
+    </style>
+
+    <!--end Dialog Box style-->
+
+
+
+</resources>

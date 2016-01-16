@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llRentCard"
+    style="@style/MainLinearLayout_rent_view">
+
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        style="@style/Main_Layout_card"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            style="@style/Main_LinearLayout_card">
+
+            <TextView
+                android:id="@+id/tvCity"
+                style="@style/TextView_city" />
+
+            <TextView
+                android:id="@+id/tvStreet"
+                style="@style/TextView_street" />
+
+            <TextView
+                android:id="@+id/tvDates"
+                style="@style/TextView_dates" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

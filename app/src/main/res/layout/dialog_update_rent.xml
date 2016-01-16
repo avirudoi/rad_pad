@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Main_Dialog_Layout" >
+
+    <TextView
+        style="@style/TextView_add_address"/>
+
+    <EditText
+        android:id="@+id/etStreet"
+        style="@style/EditText_street"/>
+
+    <EditText
+        android:id="@+id/etCity"
+        style="@style/EditText_city"/>
+
+    <LinearLayout
+        style="@style/EditText_city">
+
+        <Button
+            android:id="@+id/btMoveIn"
+            style="@style/Button_move_in"/>
+
+        <TextView
+            style="@style/TextView_to"/>
+
+        <Button
+            android:id="@+id/btMoveOut"
+            style="@style/Button_move_out"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Horizontal_text_layout">
+
+        <TextView
+            android:id="@+id/tvCancel"
+            style="@style/TextView_cancel" />
+
+        <View
+            style="@style/view_sep" />
+
+        <TextView
+            android:id="@+id/tvSave"
+            style="@style/TextView_save" />
+
+    </LinearLayout>
+
+</LinearLayout>
